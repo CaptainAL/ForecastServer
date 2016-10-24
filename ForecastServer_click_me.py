@@ -55,6 +55,7 @@ if __name__=='__main__':
             ## Send Email
             # to send
             mailer = smtplib.SMTP_SSL('smtp.googlemail.com:465')
+            username, password = 'sebal.py', 'sebalpython'
             mailer.login(username,password)
             mailer.sendmail('sebal.py@gmail.com','atm1984@gmail.com', msg.as_string())
             mailer.close()
@@ -82,7 +83,7 @@ if __name__=='__main__':
         print 'Waiting for next forecast download interval...'
         print
         time.sleep(60)
-        print time.now()
+        print str(dt.datetime.now())
  
 
     print 'Press any key to exit....'

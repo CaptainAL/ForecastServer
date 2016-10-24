@@ -51,6 +51,7 @@ def Save_Forecast(site_name,url_list,maindir,email=False):
         ## Send Email
         # to send
         mailer = smtplib.SMTP_SSL('smtp.googlemail.com:465')
+        username, password = 'sebal.py', 'sebalpython'
         mailer.login(username,password)
         mailer.sendmail('sebal.py@gmail.com','atm1984@gmail.com', msg.as_string())
         mailer.close()
