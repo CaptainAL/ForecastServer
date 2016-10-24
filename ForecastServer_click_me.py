@@ -77,8 +77,8 @@ if __name__=='__main__':
     
     
     while True:
-        Save_Forecast('San Diego',url_list,maindir='SanDiego/',email=False)
-        Save_Forecast('LagunaBeach',url_list,maindir='LagunaBeach/',email=False)
+        Save_Forecast('San Diego',url_list,maindir='SanDiego/',email=True)
+        Save_Forecast('LagunaBeach',url_list,maindir='LagunaBeach/',email=True)
         print 'Waiting for next forecast download interval...'
         print
         time.sleep(60)
