@@ -82,7 +82,7 @@ if __name__=='__main__':
         Save_Forecast('LagunaBeach',url_list,maindir='LagunaBeach/',email=True)
         print 'Waiting for next forecast download interval...'
         print
-        time.sleep(60)
+        time.sleep(432000)
         print str(dt.datetime.now())
  
 
