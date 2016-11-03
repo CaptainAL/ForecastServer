@@ -2,8 +2,12 @@
 Thumbs.db
 ehthumbs.db
 
-# Windows image files (data is stored in docx files)
+# Windows image files (data is stored in docx files, ignore those too)
 *.png
+*.docx
+
+# Linux sh files for launching
+*.sh
 
 # Folder config file
 Desktop.ini
