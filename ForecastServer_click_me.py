@@ -78,7 +78,7 @@ if __name__=='__main__':
     ## March AFB/Riverside
     maindir = 'C:/Users/alex.messina/Documents/GitHub/ForecastServer/Riverside/'
     maindir = 'Riverside/'
-    url_list=['http://forecast.weather.gov/meteograms/Plotter.php?lat=33.8878&lon=-117.2453&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.8878&lon=-117.2453&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.8878&lon=-117.2453&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
+    url_list=['http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
     
     while True:
         Save_Forecast('San Diego',url_list,maindir='SanDiego/',email=True)
@@ -86,13 +86,13 @@ if __name__=='__main__':
         Save_Forecast('Riverside',url_list,maindir='Riverside/',email=True)
         print 'Waiting for next forecast download interval...'
         print
-        time.sleep(432000)
+        #time.sleep(432000)
         print str(dt.datetime.now())
  
 
-    print 'Press any key to exit....'
-    input()
-
+    #print 'Press any key to exit....'
+    #input()
+    print 'Forecasts saved.'
 
 
 
