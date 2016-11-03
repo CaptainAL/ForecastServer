@@ -2,6 +2,9 @@
 Thumbs.db
 ehthumbs.db
 
+# Windows image files (data is stored in docx files)
+*.png
+
 # Folder config file
 Desktop.ini
 
