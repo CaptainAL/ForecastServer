@@ -1,0 +1,28 @@
+how to set up new location on ForecastServer:
+
+navigate to webpage of forecast 
+(ex. http://forecast.weather.gov/MapClick.php?lat=33.3428&lon=-118.3278&unit=0&lg=english&FcstType=graphical)
+select only "Precipitation Potential" and "Rain", click Submit
+
+If that looks right, right-click the page and "View source"
+
+Copy and paste code from another Forecast site, and
+Copy the url from the Page source (should be Plotter.php?....something)
+Make sure to put in for all three urls in url_list and change ahour to 48 and 96 for following forecasts
+
+
+Test code (needs to be on WiFi)
+
+SSH to RPi, and update code and file structure on Pi
+cd /home/pi/ForecastServer/
+mkdir sitename
+sudo nano ForecastServer_click_me.py
+**change code**
+**save and exit**
+TEST code
+sudo python ForecastServer_click_me.py
+
+Add New Rule in Outlook
+
+
+

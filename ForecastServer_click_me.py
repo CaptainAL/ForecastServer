@@ -68,22 +68,27 @@ if __name__=='__main__':
     ## San Diego
     maindir = 'C:/Users/alex.messina/Documents/GitHub/ForecastServer/SanDiego/'
     maindir = 'SanDiego/'
-    url_list = ['http://forecast.weather.gov/meteograms/Plotter.php?lat=32.7153&lon=-117.1573&wfo=SGX&zcode=CAZ043&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=32.7153&lon=-117.1573&wfo=SGX&zcode=CAZ043&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=32.7153&lon=-117.1573&wfo=SGX&zcode=CAZ043&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
+    SanDiego_url_list = ['http://forecast.weather.gov/meteograms/Plotter.php?lat=32.7153&lon=-117.1573&wfo=SGX&zcode=CAZ043&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=32.7153&lon=-117.1573&wfo=SGX&zcode=CAZ043&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=32.7153&lon=-117.1573&wfo=SGX&zcode=CAZ043&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
     
     ## Laguna Beach
     maindir = 'C:/Users/alex.messina/Documents/GitHub/ForecastServer/LagunaBeach/'
     maindir = 'LagunaBeach/'
-    url_list=['http://forecast.weather.gov/meteograms/Plotter.php?lat=33.5422&lon=-117.7831&wfo=SGX&zcode=CAZ552&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.5422&lon=-117.7831&wfo=SGX&zcode=CAZ552&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.5422&lon=-117.7831&wfo=SGX&zcode=CAZ552&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
+    LagunaBeach_url_list=['http://forecast.weather.gov/meteograms/Plotter.php?lat=33.5422&lon=-117.7831&wfo=SGX&zcode=CAZ552&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.5422&lon=-117.7831&wfo=SGX&zcode=CAZ552&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.5422&lon=-117.7831&wfo=SGX&zcode=CAZ552&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
     
     ## March AFB/Riverside
     maindir = 'C:/Users/alex.messina/Documents/GitHub/ForecastServer/Riverside/'
     maindir = 'Riverside/'
-    url_list=['http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
-    
+    Riverside_url_list=['http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.899&lon=-117.2522&wfo=SGX&zcode=CAZ048&gset=18&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
 
-    Save_Forecast('San Diego',url_list,maindir='SanDiego/',email=True)
-    Save_Forecast('LagunaBeach',url_list,maindir='LagunaBeach/',email=True)
-    Save_Forecast('Riverside',url_list,maindir='Riverside/',email=True)
+    ## Avalon, Catalina Island
+    maindir = 'C:/Users/alex.messina/Documents/GitHub/ForecastServer/Avalon/'
+    maindir = 'Avalon/'
+    Avalon_url_list=['http://forecast.weather.gov/meteograms/Plotter.php?lat=33.3428&lon=-118.3278&wfo=LOX&zcode=CAZ087&gset=15&gdiff=3&unit=0&tinfo=PY8&ahour=0&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.3428&lon=-118.3278&wfo=LOX&zcode=CAZ087&gset=15&gdiff=3&unit=0&tinfo=PY8&ahour=48&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6', 'http://forecast.weather.gov/meteograms/Plotter.php?lat=33.3428&lon=-118.3278&wfo=LOX&zcode=CAZ087&gset=15&gdiff=3&unit=0&tinfo=PY8&ahour=96&pcmd=00000010100000000000000000000000000000000000000000000000000&lg=en&indu=1!1!1!&dd=&bw=&hrspan=48&pqpfhr=6&psnwhr=6']
+
+#    Save_Forecast('San Diego',SanDiego_url_list,maindir='SanDiego/',email=True)
+#    Save_Forecast('LagunaBeach',LagunaBeach_url_list,maindir='LagunaBeach/',email=True)
+#    Save_Forecast('Riverside',Riverside_url_list,maindir='Riverside/',email=True)
+    Save_Forecast('Avalon',Avalon_url_list,maindir='C:/Users/alex.messina/Documents/GitHub/ForecastServer/Avalon/',email=True)
     print 'Waiting for next forecast download interval...'
 
     print str(dt.datetime.now())
