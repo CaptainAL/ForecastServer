@@ -25,4 +25,17 @@ sudo python ForecastServer_click_me.py
 Add New Rule in Outlook
 
 
+sebal.py@gmail.com
+pw: Mactec101
+
+crontabs:
+sudo crontab -e
+
+
+launcher.sh
+cd /
+cd /home/pi/ForecastServer
+sudo python ForecastServer_click_me.py
+cd /
+
 
